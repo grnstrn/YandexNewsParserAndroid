@@ -56,9 +56,9 @@ public class PostBaseAdapter extends BaseAdapter {
 
         public ViewHolder(View item){
             tvTitle = (TextView ) item.findViewById(R.id.title);
-            tvDescr = (TextView) item.findViewById(R.id.wrap);
-            tvDate = (TextView) item.findViewById(R.id.wrap);
-            tvLink = (TextView) item.findViewById(R.id.wrap);
+            tvDescr = (TextView) item.findViewById(R.id.wrap); //rewrite
+            tvDate = (TextView) item.findViewById(R.id.date);
+            tvLink = (TextView) item.findViewById(R.id.link);
 
         }
     }
